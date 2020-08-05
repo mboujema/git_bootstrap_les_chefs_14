@@ -16124,7 +16124,10 @@ section:nth-of-type(2) .test .decos {
   margin-bottom: 5%;
   margin-left: 33.5%;
 }
-section:nth-of-type(2) .chefs img {
+section:nth-of-type(2) .chefs .ti {
+  margin: 0% 4%;
+}
+section:nth-of-type(2) .chefs .ti img {
   width: 120%;
 }
 section:nth-of-type(3) .test {
@@ -16274,7 +16277,7 @@ footer button {
   border-radius: 20px;
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 600px) and (max-width: 1024px) {
   .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
     width: 100%;
   }
@@ -16309,25 +16312,25 @@ footer button {
   section:first-of-type .textpremier p {
     padding: 0% 0%;
   }
-  section:first-of-type .row {
-    flex-wrap: wrap;
+  section:first-of-type .bouts .bout {
+    padding-right: 25px;
   }
-  section:first-of-type .bout {
-    flex-wrap: wrap;
-  }
-  section:first-of-type .bouts {
-    flex-wrap: wrap;
-  }
-  section:first-of-type .bouts i {
-    font-size: 350%;
+  section:first-of-type .bouts .bout i {
+    font-size: 300%;
     padding: 10% 0%;
     color: grey;
   }
-  section:first-of-type .bouts h3 {
-    font-family: courgette;
+  section:first-of-type .bouts .bout h3 {
+    font-size: 150%;
   }
-  section:first-of-type .rap {
+  section:first-of-type .rap .menuss {
     flex-direction: column;
+    padding-left: 20px;
+  }
+  section:first-of-type .rap .menuss img {
+    margin-left: 5px;
+    width: 55%;
+    height: 100%;
   }
   section:nth-of-type(2) .test .decos {
     margin: 0px;
@@ -16336,6 +16339,151 @@ footer button {
   }
   section:nth-of-type(2) .chefs img {
     width: 120%;
+  }
+  section:nth-of-type(3) form div {
+    flex-direction: column;
+  }
+  section:nth-of-type(3) .columnn {
+    flex-direction: column;
+  }
+  section:nth-of-type(4) .tout {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section:nth-of-type(4) .tout div .meuf {
+    width: 100%;
+  }
+
+  footer .tot {
+    margin: 0% -50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .tot .toots {
+    padding: 0;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    width: 100%;
+  }
+  .container-fluid:nth-of-type(2), .container-sm:nth-of-type(2), .container-md:nth-of-type(2), .container-lg:nth-of-type(2), .container-xl:nth-of-type(2) {
+    width: 100%;
+  }
+  .container-fluid:nth-of-type(3), .container-sm:nth-of-type(3), .container-md:nth-of-type(3), .container-lg:nth-of-type(3), .container-xl:nth-of-type(3) {
+    width: 100%;
+  }
+
+  header {
+    height: 650px;
+  }
+  header .carousel {
+    flex-direction: column;
+  }
+  header .carousel p {
+    font-size: 35px;
+  }
+  header .carousel {
+    padding-bottom: 9%;
+  }
+
+  section:first-of-type div img {
+    width: 0px;
+  }
+  section:first-of-type .textpremier p {
+    padding: 0% 0%;
+  }
+  section:first-of-type .bouts .bout {
+    padding-right: 75px;
+  }
+  section:first-of-type .bouts .bout i {
+    font-size: 150%;
+    padding: 10% 0%;
+    color: grey;
+    margin-left: 55px;
+  }
+  section:first-of-type .bouts .bout h3 {
+    margin-left: 55px;
+    font-size: 125%;
+  }
+  section:first-of-type .rap .menuss {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  section:first-of-type .rap .menuss img {
+    margin-left: 5px;
+    width: 75%;
+    height: 100%;
+  }
+  section:nth-of-type(2) .test .decos {
+    margin: 0px;
+    padding-bottom: 50px;
+  }
+  section:nth-of-type(2) .chefs {
+    flex-direction: column;
+  }
+  section:nth-of-type(2) .chefs .ti {
+    margin: 2% 4%;
+  }
+  section:nth-of-type(2) .chefs .ti img {
+    width: 100%;
+  }
+  section:nth-of-type(3) .pod img {
+    width: 0px;
+  }
+  section:nth-of-type(3) .pod .test {
+    text-align: center;
+    justify-content: center;
+  }
+  section:nth-of-type(3) .pod .test h1 {
+    font-size: 35px;
+  }
+  section:nth-of-type(3) form div {
+    flex-direction: column;
+  }
+  section:nth-of-type(3) .columnn {
+    flex-direction: column;
+  }
+  section:nth-of-type(3) .columnn div div .imgresto {
+    width: 100%;
+  }
+  section:nth-of-type(4) .test h1 {
+    font-size: 30px;
+  }
+  section:nth-of-type(4) .test h1 .our {
+    font-size: 50px;
+  }
+  section:nth-of-type(4) .tout {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section:nth-of-type(4) .tout div .meuf {
+    width: 100%;
+    margin: 5% 0%;
+  }
+  section:nth-of-type(5) .test .decos {
+    width: 0px;
+  }
+
+  footer .tot {
+    text-align: center;
+    margin: 0% -50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .tot .toots {
+    margin: 15px;
+    padding: 0;
+  }
+  footer .tot .toots div {
+    flex-direction: column;
+  }
+  footer .tot .toots div img {
+    width: 100%;
   }
 }
 

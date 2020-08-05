@@ -137,8 +137,10 @@ section
                 margin-bottom: 5%
                 margin-left: 33.5%
         .chefs
-            img
-                width: 120%
+            .ti
+                margin: 0% 4%
+                img
+                    width: 120%
                 
 
     &:nth-of-type(3)
@@ -277,7 +279,7 @@ footer
 
 //media-query
 
-@media (min-width: 768px) and (max-width: 992px) //tablette
+@media (min-width: 600px) and (max-width: 1024px) //tablette
     .container-fluid
         width: 100%
         &:nth-of-type(3)
@@ -316,21 +318,26 @@ footer
                 p
                     padding: 0% 0%
 
-            .row
-                flex-wrap: wrap
-            .bout
-                flex-wrap: wrap
-                h3
+            
             .bouts
-                flex-wrap: wrap    
-                i
-                    font-size: 350%
-                    padding: 10% 0%
-                    color: grey
-                h3
-                    font-family: courgette
+                .bout
+                    padding-right: 25px     
+                    i
+                        font-size: 300%
+                        padding: 10% 0%
+                        color: grey
+                    h3
+                        font-size: 150%
+                        
+                    
             .rap
-                flex-direction: column
+                .menuss
+                    flex-direction: column
+                    padding-left: 20px
+                    img
+                        margin-left: 5px
+                        width: 55%
+                        height: 100%
 
         &:nth-of-type(2)
             .test
@@ -341,5 +348,156 @@ footer
             .chefs
                 img
                     width: 120%
+
+        &:nth-of-type(3)
+            form
+                div
+                    flex-direction: column
+            
+            .columnn
+                flex-direction: column
+                .restodiv
+        
+        &:nth-of-type(4)
+            .tout
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                div
+                    .meuf
+                        width: 100%
+    footer
+        .tot
+            margin: 0% -50%
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            .toots
+                padding: 0
+                        
+                        
+            
+            
                 
-@media (max-width: 768px) //phone
+@media (min-width: 320px) and (max-width: 600px) //phone
+    .container-fluid
+        width: 100%
+        &:nth-of-type(2)
+            width: 100%
+        &:nth-of-type(3)
+            width: 100%
+            
+
+    header
+        height: 650px
+        .carousel
+            flex-direction: column
+            p
+                font-size: 35px
+
+        .carousel
+            padding-bottom: 9%
+
+    section
+        &:first-of-type
+            
+            div
+                img
+                    width: 0px
+                
+            
+            .textpremier
+                p
+                    padding: 0% 0%
+
+            
+            .bouts
+                .bout
+                    padding-right: 75px     
+                    i
+                        font-size: 150%
+                        padding: 10% 0%
+                        color: grey
+                        margin-left: 55px
+                    h3
+                        margin-left: 55px
+                        font-size: 125%
+                        
+                    
+            .rap
+                .menuss
+                    flex-direction: column
+                    padding-left: 20px
+                    img
+                        margin-left: 5px
+                        width: 75%
+                        height: 100%
+        
+        &:nth-of-type(2)
+            .test
+                .decos
+                    margin: 0px
+                    padding-bottom: 50px
+            .chefs
+                flex-direction: column
+                .ti
+                    margin: 2% 4%
+                    img
+                        width: 100%
+
+        &:nth-of-type(3)
+            .pod
+                img
+                    width: 0px
+                .test
+                    text-align: center
+                    justify-content: center
+                    h1
+                        font-size: 35px
+            form
+                div
+                    flex-direction: column
+            
+            .columnn
+                flex-direction: column
+                div
+                    div
+                        .imgresto
+                            width: 100%
+
+        &:nth-of-type(4)
+            .test
+                h1
+                    font-size: 30px
+                    .our
+                        font-size: 50px
+            .tout
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                div
+                    .meuf
+                        width: 100%
+                        margin: 5% 0%
+        
+        &:nth-of-type(5)
+            .test
+                .decos
+                    width: 0px
+        
+    footer
+        .tot
+            text-align: center
+            margin: 0% -50%
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            .toots
+                margin: 15px
+                padding: 0
+                div
+                    flex-direction: column
+                    img
+                        width: 100%
+
+        
